@@ -14,7 +14,7 @@ connectDB();
 
 const PORT =  process.env.PORT || 8080;
 const app = express();
-const _dirname = path.resolve();
+const __dirname = path.resolve();
 // middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
